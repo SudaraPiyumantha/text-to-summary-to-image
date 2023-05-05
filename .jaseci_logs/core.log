@@ -1,0 +1,4 @@
+2023-05-05 11:37:45,890 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+2023-05-05 11:39:28,605 - ERROR - load_local_actions: Cannot hot load local actions from jac/text-to-image.py: inconsistent use of tabs and spaces in indentation (text-to-image.py, line 32)
+2023-05-05 11:45:30,466 - ERROR - call_action: Error calling action test_to_image.generate: generate() missing 1 required positional argument: 'text'

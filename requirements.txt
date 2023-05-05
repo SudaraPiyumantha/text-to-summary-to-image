@@ -1,0 +1,3 @@
+jaseci
+jaseci-serv
+streamlit

@@ -1,5 +1,58 @@
-2023-05-05 11:37:45,890 - ERROR - start: Skipping RedisService due to initialization failure!
+2023-05-10 13:05:17,600 - ERROR - start: Skipping RedisService due to initialization failure!
 ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
-2023-05-05 11:39:28,605 - ERROR - load_local_actions: Cannot hot load local actions from jac/text-to-image.py: inconsistent use of tabs and spaces in indentation (text-to-image.py, line 32)
-2023-05-05 11:45:30,466 - ERROR - call_action: Error calling action test_to_image.generate: generate() missing 1 required positional argument: 'text'
-2023-05-05 12:17:32,114 - ERROR - call_action: Error calling action cl_summer.summerize: Action cl_summer.summerize not found
+2023-05-10 13:11:59,672 - ERROR - load_local_actions: Cannot hot load local actions from jac/text-to-image.py: 'HUGGINGFACE_API_KEY'
+2023-05-10 13:40:04,517 - ERROR - load_local_actions: Cannot hot load from action file jac/text-to-image
+2023-05-10 13:44:34,374 - ERROR - interface_error: Internal Exception: [Errno 2] No such file or directory: 'main.jac'
+2023-05-10 13:44:57,048 - WARNING - rt_warn: main.jac:main.jac - line 12, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 13:44:57,065 - WARNING - rt_warn: main.jac:main.jac - line 12, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 13:58:06,562 - ERROR - jac_code_to_ast: Parse errors encountered - <jaseci.jac.ir.ast_builder.JacAstBuilder object at 0x7f296620ec50>
+2023-05-10 13:58:06,563 - ERROR - compile_jac: main.jac: Invalid syntax in Jac code!
+2023-05-10 13:58:06,563 - ERROR - compile_jac: main.jac: line 21:4 - unparsed:main.jac:0:0: - missing ';' at 'report'
+2023-05-10 13:58:06,563 - ERROR - register: main.jac: Code not registered
+2023-05-10 13:59:03,300 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 13:59:03,301 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:04:00,407 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 14:04:00,409 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:05:06,207 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 14:05:06,209 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:12:30,377 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 14:12:30,379 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:12:30,382 - ERROR - rt_error: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Execption within action call cl_summer.summarize! 
+2023-05-10 14:12:30,382 - ERROR - rt_error: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Internal Exception: 
+2023-05-10 14:13:29,053 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 14:13:29,057 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:13:29,059 - ERROR - rt_error: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Execption within action call cl_summer.summarize! 
+2023-05-10 14:13:29,059 - ERROR - rt_error: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Internal Exception: 
+2023-05-10 14:14:11,340 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 14:14:11,342 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:21:10,141 - ERROR - jac_code_to_ast: Parse errors encountered - <jaseci.jac.ir.ast_builder.JacAstBuilder object at 0x7f2965971900>
+2023-05-10 14:21:10,142 - ERROR - compile_jac: main.jac: Invalid syntax in Jac code!
+2023-05-10 14:21:10,142 - ERROR - compile_jac: main.jac: line 22:0 - unparsed:main.jac:0:0: - missing ';' at '}'
+2023-05-10 14:21:10,142 - ERROR - register: main.jac: Code not registered
+2023-05-10 14:21:34,695 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 14:21:34,696 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:21:50,963 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 14:21:50,967 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:21:51,299 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Attempting auto-load for text_to_image.generate
+2023-05-10 14:21:51,302 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:21:51,302 - ERROR - rt_error: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Cannot execute text_to_image.generate - Not Found
+2023-05-10 14:59:18,222 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+2023-05-10 14:59:33,149 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Attempting auto-load for cl_summer.summarize
+2023-05-10 14:59:33,149 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-10 14:59:33,150 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 14:59:33,150 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:59:33,153 - WARNING - rt_warn: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Attempting auto-load for cl_summer.summarize
+2023-05-10 14:59:33,153 - WARNING - rt_warn: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-10 14:59:33,153 - ERROR - rt_error: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Cannot execute cl_summer.summarize - Not Found
+2023-05-10 14:59:33,154 - ERROR - rt_error: main.jac:init - line 21, col 68 - rule index_slice - Incompatible type for object None - NoneType, expecting [<class 'list'>, <class 'str'>, <class 'dict'>]
+2023-05-10 14:59:33,154 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Attempting auto-load for text_to_image.generate
+2023-05-10 14:59:33,154 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 14:59:33,155 - ERROR - rt_error: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Cannot execute text_to_image.generate - Not Found
+2023-05-10 15:02:10,048 - ERROR - load_local_actions: Cannot hot load from action file jac/text-to-image
+2023-05-10 15:03:16,803 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-10 15:03:16,805 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 15:03:17,343 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Attempting auto-load for text_to_image.generate
+2023-05-10 15:03:17,347 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Builtin action unable to be loaded - text_to_image.generate
+2023-05-10 15:03:17,347 - ERROR - rt_error: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Cannot execute text_to_image.generate - Not Found
+2023-05-10 15:04:06,797 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate

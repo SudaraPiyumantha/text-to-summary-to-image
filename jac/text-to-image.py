@@ -3,9 +3,13 @@ import base64
 from jaseci.jsorc.live_actions import jaseci_action
 import traceback
 from fastapi import HTTPException
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": f"Bearer {os.getenv('HUGGINGFACE_API_KEY')}"}
 
 '''
 def query(payload):
@@ -20,7 +24,7 @@ from PIL import Image
 image = Image.open(io.BytesIO(image_bytes))
 '''
 
-@jaseci_action(act_group=["test_to_image"], allow_remote=True)
+@jaseci_action(act_group=["text_to_image"], allow_remote=True)
 
 def generate(text:str)->str:
 	'''Generate a image bytes string from the text using the stable diffusion v1.5 model'''

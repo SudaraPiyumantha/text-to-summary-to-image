@@ -1,0 +1,47 @@
+2023-05-12 04:33:02,885 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+2023-05-12 04:59:49,462 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Attempting auto-load for cl_summer.summarize
+2023-05-12 04:59:49,463 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-12 04:59:49,464 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-12 04:59:49,465 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-12 05:00:00,538 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Attempting auto-load for cl_summer.summarize
+2023-05-12 05:00:00,539 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-12 05:00:00,540 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-12 05:00:00,540 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-12 05:00:00,542 - WARNING - rt_warn: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Attempting auto-load for cl_summer.summarize
+2023-05-12 05:00:00,543 - WARNING - rt_warn: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-12 05:00:00,543 - ERROR - rt_error: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Cannot execute cl_summer.summarize - Not Found
+2023-05-12 05:00:00,544 - ERROR - rt_error: main.jac:init - line 21, col 68 - rule index_slice - Incompatible type for object None - NoneType, expecting [<class 'list'>, <class 'str'>, <class 'dict'>]
+2023-05-12 05:00:00,544 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Attempting auto-load for text_to_image.generate
+2023-05-12 05:00:00,544 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Builtin action unable to be loaded - text_to_image.generate
+2023-05-12 05:00:00,545 - ERROR - rt_error: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Cannot execute text_to_image.generate - Not Found
+2023-05-12 05:01:04,515 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Attempting auto-load for cl_summer.summarize
+2023-05-12 05:01:04,516 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-12 05:01:04,517 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-12 05:01:04,517 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-12 05:01:04,519 - WARNING - rt_warn: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Attempting auto-load for cl_summer.summarize
+2023-05-12 05:01:04,519 - WARNING - rt_warn: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-12 05:01:04,520 - ERROR - rt_error: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Cannot execute cl_summer.summarize - Not Found
+2023-05-12 05:01:04,520 - ERROR - rt_error: main.jac:init - line 21, col 68 - rule index_slice - Incompatible type for object None - NoneType, expecting [<class 'list'>, <class 'str'>, <class 'dict'>]
+2023-05-12 05:01:04,521 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Attempting auto-load for text_to_image.generate
+2023-05-12 05:01:04,521 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Builtin action unable to be loaded - text_to_image.generate
+2023-05-12 05:01:04,521 - ERROR - rt_error: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Cannot execute text_to_image.generate - Not Found
+2023-05-12 05:01:56,818 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Attempting auto-load for cl_summer.summarize
+2023-05-12 05:01:56,818 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-12 05:01:56,819 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-12 05:01:56,820 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-12 05:02:11,485 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Attempting auto-load for cl_summer.summarize
+2023-05-12 05:02:11,486 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-12 05:02:11,487 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-12 05:02:11,487 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-12 05:02:22,914 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Attempting auto-load for cl_summer.summarize
+2023-05-12 05:02:22,915 - WARNING - rt_warn: main.jac:main.jac - line 4, col 4 - rule can_stmt - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-12 05:02:22,916 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Attempting auto-load for text_to_image.generate
+2023-05-12 05:02:22,916 - WARNING - rt_warn: main.jac:main.jac - line 13, col 4 - rule can_stmt - Builtin action unable to be loaded - text_to_image.generate
+2023-05-12 05:02:22,919 - WARNING - rt_warn: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Attempting auto-load for cl_summer.summarize
+2023-05-12 05:02:22,919 - WARNING - rt_warn: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Builtin action unable to be loaded - cl_summer.summarize
+2023-05-12 05:02:22,919 - ERROR - rt_error: main.jac:generate_summary - line 6, col 34 - rule kw_expr_list - Cannot execute cl_summer.summarize - Not Found
+2023-05-12 05:02:22,920 - ERROR - rt_error: main.jac:init - line 21, col 68 - rule index_slice - Incompatible type for object None - NoneType, expecting [<class 'list'>, <class 'str'>, <class 'dict'>]
+2023-05-12 05:02:22,920 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Attempting auto-load for text_to_image.generate
+2023-05-12 05:02:22,921 - WARNING - rt_warn: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Builtin action unable to be loaded - text_to_image.generate
+2023-05-12 05:02:22,921 - ERROR - rt_error: main.jac:generate_image - line 15, col 43 - rule kw_expr_list - Cannot execute text_to_image.generate - Not Found
